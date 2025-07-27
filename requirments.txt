@@ -2,5 +2,5 @@ flask
 flask_cors
 requests
 bs4
-
+pymongo
 //pip install -r requrment.txt => for installing all thing whic is above 
