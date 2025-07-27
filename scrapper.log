@@ -323,3 +323,26 @@ INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 12:54:40] "GET /static/css/main.css HTT
 INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 12:54:43] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 12:54:43] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 12:54:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 13:22:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 13:22:30] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 13:22:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 13:22:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 13:22:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 13:22:34] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 13:22:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 13:25:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 13:25:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 13:25:52] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 13:25:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 13:25:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 13:25:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 13:25:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name error: 'NoneType' object has no attribute 'div'
+INFO:root:rating error: 'NoneType' object has no attribute 'div'
+INFO:root:commentHead error: 'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone14', 'Name': 'Avi Nash', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'GoodREAD MORE'}, {'Product': 'iphone14', 'Name': 'Rahul Prasad ', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Best smart phone under this price range compare to other phones in 2023 if you see overall build quality, performance and Camera with autofocus and video action mode are awesome50% extra RAM compared to iPhone 13 and other more features. Best time to upgrade to iPhone 14 . I am so happy See Low light photos are amazing..READ MORE'}, {'Product': 'iphone14', 'Name': 'Mayank Gupta', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Excellent build quality. Much faster and smootherREAD MORE'}, {'Product': 'iphone14', 'Name': 'Tara singh mehra', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Nice camera but battery drain fast specially on video recordingREAD MORE'}, {'Product': 'iphone14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Damn such a great phone. Camera is really good, battery lasts long enough, super smooth even though its just 60 hz XDR display. Videos with action mode on are insanely stable and crisp.The night mode can take some really good shots jn low light conditions .The whole apple environment itself is so seamless. I shifted from android to iPhone and it barely took any time since I had iPad and a mac already. With a just a few clicks the phone was ready to go.READ MORE'}, {'Product': 'iphone14', 'Name': 'NAREN MALO', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Amazing picture quality\u2764\ufe0f\U0001f44c\U0001f3fc\U0001f44c\U0001f3fcREAD MORE'}, {'Product': 'iphone14', 'Name': 'Kajapriya Kannan', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Performance is really good and camera quality is fineREAD MORE'}, {'Product': 'iphone14', 'Name': 'Banwari  Kaka', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Excellent smart phone, Good battery backup and performance is very good, Good camera quality.READ MORE'}, {'Product': 'iphone14', 'Name': 'Ajay Kumar', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Just amazing!READ MORE'}, {'Product': 'iphone14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Love the camera\U0001f496\U0001f970READ MORE'}]
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 13:26:05] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2025 13:26:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
