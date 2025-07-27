@@ -1,5 +1,6 @@
+
 body {
-  background-color: #91ced4;
+  background-color: #7e9698;
 }
 body * {
   box-sizing: border-box;
@@ -104,6 +105,7 @@ table tr:nth-child(2n+1) {
     display: none;
   }
 }
+
 @media screen and (max-width: 500px) {
   .header {
     background-color: transparent;
@@ -161,3 +163,13 @@ table tr:nth-child(2n+1) {
     overflow: visible;
   }
 }
+
+/* 🌟 Global Hover Effect for All Screen Sizes */
+table tr:hover {
+  background-color: #c8e7ea !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: scale(1.01);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
