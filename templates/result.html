@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en" >
 
 <head>
@@ -42,6 +42,52 @@
 
 
 
+</body>
+
+</html> -->
+
+
+<!-- +++++++++++++++++++++++ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Review Page</title>
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+  <div class="table-users">
+    <div class="header">Reviews</div>
+
+    <table cellspacing="0">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Name</th>
+          <th>Rating</th>
+          <th>Comment Heading</th>
+          <th>Comment</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for review in reviews %}
+        <tr>
+          <td>{{ review['Product'] }}</td>
+          <td>{{ review['Name'] }}</td>
+          <td>{{ review['Rating'] }}</td>
+          <td>{{ review['CommentHead'] }}</td>
+          <td>{{ review['Comment'] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 </body>
 
 </html>
